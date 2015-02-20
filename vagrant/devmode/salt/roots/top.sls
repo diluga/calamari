@@ -3,6 +3,7 @@ base:
   '*':
       - build_deps
       - postgres
+      - vagrant
       - git_clone
       - virtualenv
       - configs

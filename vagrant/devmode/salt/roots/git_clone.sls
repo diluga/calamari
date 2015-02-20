@@ -6,6 +6,7 @@ git_clone:
     - name: /calamari.git
     - require:
       - pkg: build_deps
+      - git: vagrant_git_remote
 
 git_clone_teuthology:
   git:
